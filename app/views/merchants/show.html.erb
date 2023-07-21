@@ -1,0 +1,7 @@
+<h1 class="header"><%=@facade.merchant.name%></h1>
+
+<div class="merchant_items">
+  <% @facade.items.each do |item| %>
+    <p><%= item.name %></p>
+  <% end %>
+</div>
